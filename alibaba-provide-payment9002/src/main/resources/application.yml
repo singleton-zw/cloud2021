@@ -1,0 +1,16 @@
+# Tomcat
+server:
+    port: 9002
+#spring
+spring:
+    application:
+        name: nacos-provide-payment
+    cloud:
+      nacos:
+        discovery:
+          server-addr: localhost:8848
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

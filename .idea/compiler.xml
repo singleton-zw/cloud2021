@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="alibaba-config-client3002" />
+        <module name="alibaba-consumer-order83" />
+        <module name="alibaba-provide-payment9001" />
+        <module name="alibaba-provide-payment9002" />
+        <module name="commons-api" />
+        <module name="config-center3001" />
+        <module name="consumer-feign-order80" />
+        <module name="consumer-order80" />
+        <module name="eureka-server7001" />
+        <module name="eureka-server7002" />
+        <module name="gateway-gateway6666" />
+        <module name="private-payment8001" />
+        <module name="provide-payment8002" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="provide-payment8001" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
